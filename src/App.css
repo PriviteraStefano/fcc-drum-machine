@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+#display {
+  background-color:aqua;
+  color: black;
+  padding: 12px;
+  border-radius: 12px;
+  width: 150px;
+}
+
+#drum {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 210px;
+}
+
+.drum-pad {
+  width: 64px;
+  height: 64px;
+}
+
+.drum-pad:hover {
+  cursor: pointer
+}
